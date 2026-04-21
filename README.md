@@ -1,11 +1,11 @@
 # Radar-Indoor-Analysis 
-#Collaborators Name:
+# Collaborators Name:
 	D.Aaditya 
 	Chirag R Karanth
 	Rohan
 	Vishwanat
 
-#AIM:
+# AIM:
 This project aims to detect static and dynamic states of a person for indoor detection and mappin purposes <br>
 
 Using Kalman filter and random forest algorithms we mannaged to map the indoor surroundings<br>
