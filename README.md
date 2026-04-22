@@ -3,7 +3,7 @@
 	D.Aaditya 
 	Chirag R Karanth
 	Rohan
-	Vishwanat
+	Vishwanath
 
 # AIM:
 This project aims to detect static and dynamic states of a person for indoor detection and mappin purposes <br>
