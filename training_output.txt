@@ -1,0 +1,38 @@
+Loading data...
+Found labels: ['crouching', 'running', 'walk and stop', 'walking']
+Loading 13 files for label: crouching
+Loading 10 files for label: running
+Loading 11 files for label: walk and stop
+Loading 11 files for label: walking
+Total rows: 325958
+             file  frame  point_index  ...  noise  track_id      label
+0  replay_14.json      0            0  ...      0       255  crouching
+1  replay_14.json      0            1  ...      0       255  crouching
+2  replay_14.json      0            2  ...      0       255  crouching
+3  replay_14.json      0            3  ...      0       255  crouching
+4  replay_14.json      1            0  ...      0       255  crouching
+
+[5 rows x 11 columns]
+
+X shape: (4436, 11)
+y distribution:
+ label
+crouching        1247
+walking          1100
+walk and stop    1095
+running           994
+Name: count, dtype: int64
+
+Model Accuracy: 0.8978211870773855
+
+Classification Report:
+                precision    recall  f1-score   support
+
+    crouching       0.83      0.93      0.88       374
+      running       0.96      0.95      0.96       298
+walk and stop       0.89      0.85      0.87       329
+      walking       0.93      0.86      0.89       330
+
+     accuracy                           0.90      1331
+    macro avg       0.90      0.90      0.90      1331
+ weighted avg       0.90      0.90      0.90      1331
